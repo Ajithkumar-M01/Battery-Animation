@@ -1,0 +1,41 @@
+.batteryCap {
+    height: 2.5vh;
+    width: 7.5vw;
+    background-color: black;
+    margin: 2em auto 0;
+    clip-path: polygon(25% 0%, 40% 0%, 60% 0%,  75% 0%, 100% 100%, 0% 100%);
+}
+.battery {
+    width: 15vw;
+    height: 50.5vh;
+    border: 10px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.bar {
+    height: 9.25vh;
+    /* background-color: green; */
+    margin: 0.25em 0.25em 0.25em 0.25em;
+    border-radius: 5px;
+}
+
+#five {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#one {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    /* padding: 0.5em; */
+    font-size: 1.5rem;
+    cursor: pointer;
+}
